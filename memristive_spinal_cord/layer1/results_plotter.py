@@ -25,4 +25,5 @@ class ResultsPlotter:
         pylab.plot(extensor.keys(), extensor.values(), 'b-.', label='extensor')
 
         pylab.ylabel(title)
+        pylab.xlabel('time, ms')
         pylab.legend()
