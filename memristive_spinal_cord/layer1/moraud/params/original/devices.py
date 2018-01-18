@@ -21,5 +21,9 @@ def add_multimeter_params(multimeter):
     )
 
 
-for multimeter in Layer1Multimeters:
-    add_multimeter_params(multimeter)
+add_multimeter_params(Layer1Multimeters.FLEX_INTER_1A)
+add_multimeter_params(Layer1Multimeters.EXTENS_INTER_1A)
+add_multimeter_params(Layer1Multimeters.FLEX_INTER_2)
+add_multimeter_params(Layer1Multimeters.EXTENS_INTER_2)
+add_multimeter_params(Layer1Multimeters.FLEX_MOTOR)
+add_multimeter_params(Layer1Multimeters.EXTENS_MOTOR)
